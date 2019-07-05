@@ -193,7 +193,7 @@ let package = Package(
         .library(name: "XRay", targets: ["XRay"])
     ],
     dependencies: [
-        .package(url: "https://github.com/alak/aws-sdk-swift-core.git", .branch("master")),
+        .package(url: "https://github.com/alak/aws-sdk-swift-core.git", from: "3.0.0"),
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", .upToNextMajor(from: "4.1.0"))
     ],
     targets: [
